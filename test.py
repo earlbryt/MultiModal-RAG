@@ -9,7 +9,7 @@ from langchain.schema import HumanMessage
 if 'GOOGLE_API_KEY' in os.environ:  # This is for testing purposes, delete any existing environment variables before running the script
     del os.environ['GOOGLE_API_KEY']
 
-load_dotenv("env\.env")
+load_dotenv(".env")
 api_key = os.getenv("GOOGLE_API_KEY")
 
 
